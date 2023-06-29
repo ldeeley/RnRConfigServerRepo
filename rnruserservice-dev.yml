@@ -12,7 +12,7 @@ spring:
     username: root
     password: password
   application:
-    name: userservice
+    name: rnruserservice
 
   config:
     import:
