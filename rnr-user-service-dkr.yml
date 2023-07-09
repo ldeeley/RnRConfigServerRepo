@@ -15,8 +15,8 @@ spring:
     name: rnr-user-service
 
   config:
-    import:
-      - optional:configserver:http://rnr-config-server:8888
+    import: "optional:configserver:http://host.docker.internal:8888"
+      # - optional:configserver:http://rnr-config-server:8888
 
   jpa:
     hibernate:
