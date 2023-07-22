@@ -1,6 +1,8 @@
 my:
   greeting: Hello World from the RocknRoll User-Service in GitHub env DKR
-
+logging:
+  file:
+    name: C:/Users/leste/IdeaProjects/rnr-elkstack/rnr-logstash-service/elk-stack.log
 spring:
   sql:
     init:
